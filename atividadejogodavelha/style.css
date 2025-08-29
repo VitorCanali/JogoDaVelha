@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+}
+
+.montar{
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.quadrados{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+.CorDoX{
+    color: red;
+}
+
+.CorDoO{
+    color: green;
+}
+.linha{
+    width: 500px;
+    height: 5px;
+    background-color: red;
+    left: 700px;
+    position: absolute;
+    top: 190px;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+
+.linhav{
+    width: 5px;
+    height: 500px;
+    background-color: black;
+    left: 880px;
+    position: absolute;
+    top: 110px;
+}
+.linhav2{
+    width: 5px;
+    height: 500px;
+    background-color: black;
+    left: 1005px;
+    position: absolute;
+    top: 110px;
+}
+.linhah{
+    width: 500px;
+    height: 5px;
+    background-color: black;
+    left: 700px;
+    position: absolute;
+    top: 258px;
+}
+.linhah2{
+    width: 500px;
+    height: 5px;
+    background-color: black;
+    left: 700px;
+    position: absolute;
+    top: 383px;
+}
